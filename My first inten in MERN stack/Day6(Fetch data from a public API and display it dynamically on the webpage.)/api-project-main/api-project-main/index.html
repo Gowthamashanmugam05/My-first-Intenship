@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Potter Characters</title>
+
+    <!--LINKS TO STYLESHEETS-->
+    <link rel="stylesheet" href="./css/defaults.css">
+    <link rel="stylesheet" href="./css/styling.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+
+    <!--LINK TO FONTAWESOME KIT-->
+    <script src="https://kit.fontawesome.com/5f2ab24bd1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="page-container">
+        <div id="pg-header-container">
+            <h1>Harry Potter Characters</h1>
+            <h2 data-open="favs">View Your Favorites</h2>
+            <div class="sort-btns-container-homepage">
+                <button class="sort-btn" id="alphabetical-sort-home" title='Sort Alphabetically'>A-Z</button>
+                <button class="sort-btn" id="reverse-alphabetical-sort-home" title='Sort Reverse-Alphabetically'>Z-A</button>
+            </div>
+        </div>
+        <main>
+            <section id="chars-container"></section>
+            <div id="favs" class="full-site-modal page-block" data-animation="zoomInOut">
+                <div class="container-fluid">
+                    <div id="modal-header-container">
+                        <header class="modal-header">
+                            <div class="header-sort-btns-container">
+                                <h3>Favorites</h3>
+                                <div class="sort-btns-container-favs">
+                                    <button class="sort-btn" id="alphabetical-sort-favs" title='Sort Alphabetically'>A-Z</button>
+                                    <button class="sort-btn" id="reverse-alphabetical-sort-favs" title='Sort Reverse-Alphabetically'>Z-A</button>
+                                </div>
+                                <div class="favs-house-totals-container">
+                                    <p>Total Gryffindor: <span id="total-gryffindor-favs"></span></p>
+                                    <p>Total Slytherin: <span id="total-slytherin-favs"></span></p>
+                                    <p>Total Ravenclaw: <span id="total-ravenclaw-favs"></span></p>
+                                    <p>Total Hufflepuff: <span id="total-hufflepuff-favs"></span></p>
+                                </div>
+                            </div>
+                            <i class="fas fa-times" data-close></i>
+                        </header>
+                    </div>
+                    <div id="favs-modal-body"></div>
+                </div>
+            </div>
+            <div id="totals-section-homepage">
+                <header id="total-gryffindor-homepage-header">Total Gryffindor: <span id="total-gryffindor-homepage"></span></header>
+                <header id="total-slytherin-homepage-header">Total Slytherin: <span id="total-slytherin-homepage"></span></header>
+                <header id="total-ravenclaw-homepage-header">Total Ravenclaw: <span id="total-ravenclaw-homepage"></span></header>
+                <header id="total-hufflepuff-homepage-header">Total Hufflepuff: <span id="total-hufflepuff-homepage"></span></header>
+            </div>
+        </main>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>

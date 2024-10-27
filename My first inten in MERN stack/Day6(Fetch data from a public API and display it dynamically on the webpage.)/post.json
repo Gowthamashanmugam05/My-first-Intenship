@@ -1,0 +1,32 @@
+[
+    {
+        "userId": 1,
+        "id": 1,
+        "title": "Sample Post 1",
+        "body": "This is the body of the first sample post. It contains some example text to represent content."
+    },
+    {
+        "userId": 1,
+        "id": 2,
+        "title": "Sample Post 2",
+        "body": "This is the body of the second sample post. The content here is also just an example."
+    },
+    {
+        "userId": 2,
+        "id": 3,
+        "title": "Sample Post 3",
+        "body": "This is the body of the third sample post. Another piece of content for the example."
+    },
+    {
+        "userId": 2,
+        "id": 4,
+        "title": "Sample Post 4",
+        "body": "This is the body of the fourth sample post. Example content continues."
+    },
+    {
+        "userId": 3,
+        "id": 5,
+        "title": "Sample Post 5",
+        "body": "This is the body of the fifth sample post. More text for the example."
+    }
+]
